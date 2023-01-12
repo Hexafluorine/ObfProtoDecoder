@@ -18,7 +18,7 @@ namespace ObfProtoDecoder
 		
 		public static void Main(string[] args)
 		{
-			#if DDEBUG
+			#if DEBUG
 			var config_path = @"Z:\config_2.8.0.ini";
 			var output_directory = @"Z:\pyproto";
 			#else
